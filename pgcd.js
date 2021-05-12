@@ -16,7 +16,7 @@ let getPGCD = function (nb1,nb2) {
         }
     }
     return pgcd;
-}
+
 
 submit.addEventListener('click',function () {
     let nb1,nb2,pgcd,strPgcd;
