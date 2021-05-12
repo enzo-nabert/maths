@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<title>Premier</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="lien" onclick="location.href='index.html'"><p>Accueil</p></div>
+				<div class="lien page" onclick="location.href='Prime.html'"><p>Premier</p></div>
+				<div class="lien" onclick="location.href='PrimeList.html'"><p>Liste premiers</p></div>
+				<div class="lien" onclick="location.href='Pgcd.html'"><p>PGCD</p></div>
+				<div class="lien" onclick="location.href='pythagore.html'"><p>Pythagore</p></div>
+			</nav>
+		</header>
+		<main>
+			<div class="fenetre">
+				<div class="titre">
+					<h1>Testeur de nombre premier</h1>
+					<h3>Entre un nombre entier pour tester s'il est premier<br>Puis récupère ses diviseurs</h3>
+				</div>
+				<div>
+					<div>
+						<label for="primeInput"></label>
+						<input id="primeInput" class="EnterNumber" type="text" placeholder="Entrer nombre">
+						<button id ="submitPrime" class="submit">Valider</button>
+						<div id="answerDiv">
+							<p class="answer" id="answerPrime">Réponse:</p>
+							<p id="yesNo"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class= "reponse" id="diviseursDiv">
+				<p class="answer" id="diviseurs">Diviseurs:<br><br></p>
+			</div>
+		</main>
+		<script src="prime.js"></script>
+	</body>
+</html>

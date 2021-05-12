@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<title>Liste nombre Premier</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="lien" onclick="location.href='index.html'"><p>Accueil</p></div>
+				<div class="lien" onclick="location.href='Prime.html'"><p>Premier</p></div>
+				<div class="lien page" onclick="location.href='PrimeList.html'"><p>Liste premiers</p></div>
+				<div class="lien" onclick="location.href='Pgcd.html'"><p>PGCD</p></div>
+				<div class="lien" onclick="location.href='pythagore.html'"><p>Pythagore</p></div>
+			</nav>
+		</header>
+		<main>
+			<div class="fenetre">
+				<div class="titre">
+					<h1>Liste de nombres premiers</h1>
+					<h3>Entre un nombre pour avoir une liste de nombres premiers jusqu'à celui-ci</h3>
+				</div>
+				<div>
+					<div>
+						<label for="primeListInput"></label>
+						<input class="EnterNumber" id="primeListInput" type="text" pattern="\d*" placeholder="Entrer nombre">
+						<button class="submit" id="submitPrimeList">Valider</button>
+					</div>
+				</div>
+			</div>
+			<div class= "reponse" id="primeListAnswer">
+				<p class="answer" id="answerp">Réponse:<br><br></p>
+			</div>
+		</main>
+		<script src="primeList.js"></script>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<title>PGCD</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="lien" onclick="location.href='index.html'"><p>Accueil</p></div>
+				<div class="lien" onclick="location.href='Prime.html'"><p>Premier</p></div>
+				<div class="lien" onclick="location.href='PrimeList.html'"><p>Liste premiers</p></div>
+				<div class="lien page" onclick="location.href='Pgcd.html'"><p>PGCD</p></div>
+				<div class="lien" onclick="location.href='pythagore.html'"><p>Pythagore</p></div>
+			</nav>
+		</header>
+		<main>
+			<div class="fenetre">
+				<div class="titre">
+					<h1>Trouver PGCD</h1>
+					<h3>Entre deux nombres entiers pour trouver leur PGCD</h3>
+				</div>
+				<div>
+					<div>
+						<label for="pgcdInput1"></label>
+						<label for="pgcdInput2"></label>
+						<input id="pgcdInput1" class="EnterNumber" type="text" pattern="\d*" placeholder="Entrer nombre 1">
+						<input id="pgcdInput2" class="EnterNumber" type="text" pattern="\d*" placeholder="Entrer nombre 2">
+						<button id ="submitPgcd" class="submit">Valider</button>
+					</div>
+				</div>
+			</div>
+			<div class="reponse" id="answerDiv">
+				<p class="answer" id="answerPgcd">Réponse:<br><br></p>
+			</div>
+		</main>
+		<script src="pgcd.js"></script>
+	</body>
+</html>

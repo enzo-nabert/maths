@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Pythagore</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="lien" onclick="location.href='index.html'"><p>Accueil</p></div>
+        <div class="lien" onclick="location.href='Prime.html'"><p>Premier</p></div>
+        <div class="lien" onclick="location.href='PrimeList.html'"><p>Liste premiers</p></div>
+        <div class="lien" onclick="location.href='Pgcd.html'"><p>PGCD</p></div>
+        <div class="lien page" onclick="location.href='pythagore.html'"><p>Pythagore</p></div>
+    </nav>
+</header>
+<main>
+    <div class="fenetre">
+        <div class="titre">
+            <h1>Théorème de pythagore</h1>
+            <h3>Rempli les 3 champs pour une vérification ou laisse un champs vide pour calculer</h3>
+        </div>
+        <div>
+            <div id="lesInputs">
+                <label for="IHauteur"></label>
+                <input id="IHauteur" class="EnterNumber" type="text" pattern="\d*" placeholder="Hauteur">
+                <div id="base">
+                    <div id="hypothenuse">
+                        <img id="triangle" src="images/triangle.png" alt="triangle"/>
+                        <label for="IHypothenuse"></label>
+                        <input id="IHypothenuse" class="EnterNumber" type="text" pattern="\d*" placeholder="Hypothénuse">
+                    </div>
+                    <label for="IBase"></label>
+                    <input id="IBase" class="EnterNumber" type="text" pattern="\d*" placeholder="Base">
+                </div>
+                <button id ="submitPythagore" class="submit">Valider</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="reponse" id="pythagoreDiv">
+        <p class="answer" id="answerPythagore">Réponse:<br><br></p>
+    </div>
+</main>
+<script src="pythagore.js"></script>
+</body>
+</html>

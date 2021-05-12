@@ -1,0 +1,192 @@
+html{
+    background-color: #000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 2px solid #00008b;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #fff;
+}
+.lien.page{
+    color: #000;
+    border-color: #08ff00;
+    background-color: #08ff00;
+}
+.fenetre{
+    height: 70vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#answerIMG{
+    width: 50px;
+    height: 70px;
+}
+.lien{
+    display: flex;
+    color: #ff0;
+    border: 2px solid #00008b;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 50px;
+}
+.lien:hover{
+    background-color: #6f72ff;
+    cursor: pointer;
+}
+
+.EnterNumber{
+    background-color: #000;
+    color: #ff0;
+    text-align: center;
+    border: 2px solid #00008b;
+    border-radius: 24px;
+    width: 210px;
+    height: 50px;
+}
+
+#error{
+    color:#fff;
+}
+.submit{
+    background-color: #000;
+    color: #f00;
+    text-align: center;
+    border: 2px solid #f00;
+    border-radius: 45px;
+    width: 150px;
+    height: 60px;
+}
+
+.submit:hover{
+    background-color: #f00;
+    color: #000;
+    cursor: pointer;
+}
+
+.answer{
+    font-size: 30px;
+    color: #ff0;
+}
+#yes{
+    font-size: 30px;
+    color: #0f0;
+}
+#no{
+    font-size: 30px;
+    color: #f00;
+}
+
+.reponse{
+    border: 2px solid #ff0;
+}
+
+#answerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#calculInput{
+    background-color: #000;
+    color: #ff0;
+    text-align: center;
+    border: 2px solid #00008b;
+    border-radius: 24px;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#calculBox{
+    border: 2px solid #f00;
+    border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#buttonBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.touche{
+    text-align: center;
+    border-radius: 45px;
+    width: 70px;
+    height: 60px;
+    font-size: 28px;
+    margin: 5px;
+}
+
+.nombre{
+    background-color: #00008b;
+    color: #ff0;
+    border: 2px solid #00008b;
+}
+.operation{
+    background-color: #ff0;
+    color: #00008b;
+    border: 2px solid #ff0;
+
+}
+
+#categorie{
+    background-color: #000;
+    color: #ff0;
+    text-align: center;
+    border: 2px solid #00008b;
+    border-radius: 10px;
+    width: 210px;
+    height: 50px;
+}
+
+#lesInputs{
+    display: flex;
+    align-items: center;
+}
+
+#IBase{
+    margin-left: 15%;
+}
+
+#IHauteur{
+    margin-bottom: 10%;
+}
+
+#hypothenuse{
+    display:flex;
+    align-items: center;
+}
+
+#IHypothenuse{
+   margin-bottom: 10%;
+   margin-right: 5%;
+}
